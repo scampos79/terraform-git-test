@@ -1,0 +1,21 @@
+# Directorio local de Terraform
+.terraform/
+
+# Archivos de estado
+*.tfstate
+*.tfstate.*
+
+# Archivos de planes guardados
+*.tfplan
+tfplan
+
+# Archivos de error
+crash.log
+crash.*.log
+
+# Archivos de variables que pueden contener secretos
+*.tfvars
+*.tfvars.json
+
+# Archivos generados por nuestro laboratorio
+resumen-modulo.txt
